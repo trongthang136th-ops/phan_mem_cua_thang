@@ -1,0 +1,73 @@
+name: phan_mem_cua_thang
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  youtube_player_flutter: ^9.1.1
+  cupertino_icons: ^1.0.2
+  audioplayers: ^6.6.0
+  speech_to_text: ^7.3.0 
+  flutter_tts: ^4.2.2
+  url_launcher: ^6.3.1
+  intl: ^0.19.0
+  confetti: ^0.7.0
+  flutter_native_splash: ^2.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/abc_song.mp3
+    - assets/number_song.mp3
+    - assets/anhnen.png
+    - assets/hinhkhoidong.png
+    - assets/3den5tuoi.png
+    - assets/7tuoi.png
+    - assets/baoan.png
+    - assets/binhan.png
+    - assets/giadinh.png
+    - assets/giangsinh.png
+    - assets/nhubinh.png
+    - assets/thangle.png
+    - assets/dongvat1.png
+    - assets/dongvat2.png
+    - assets/dongvat3.png
+    - assets/thiennhien.png
+    - assets/labubu.png
+    - assets/labubu1.png
+    - assets/congchua1.png
+    - assets/congchua2.png
+    - assets/congchua3.png
+    - assets/tienganh.png
+    - assets/chudegiadinh.png
+    - assets/dodungtrongnha.png
+    - assets/chudedongvat.png
+    - assets/chudegiaothong.png
+    - assets/chudethoitiet.png
+    - assets/tiengviet.png
+    - assets/toanhoc.png
+    - assets/ghephinh.png
+    - assets/truyenke.png
+    - images/
+    - audios/
+
+flutter_native_splash:
+  background_image: assets/anhnen.png
+  android: true
+  ios: true
+  
+  android_12:
+    color: "#63B8ED"
+    image: assets/hinhkhoidong.png
+    icon_background_color: "#63B8ED"
+    
+  web: false
